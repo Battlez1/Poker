@@ -29,12 +29,12 @@ body{
   font-family:"DM Sans",system-ui,sans-serif;
   line-height:1.45;
   
-  /* Prevent screen bouncing/overscroll & accidental text selection */
-  overscroll-behavior:none;
-  overflow:hidden;
-  -webkit-user-select:none;
-  user-select:none;
-  -webkit-touch-callout:none;
+  /* scroll */
+  overflow: auto;
+  overscroll-behavior: contain;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 main{max-width:940px;margin:0 auto;padding:16px 14px 28px}
 h1{font-family:"Young Serif",Georgia,serif;font-weight:400;font-size:clamp(26px,5vw,36px);margin:4px 0 0}
